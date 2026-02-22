@@ -3,6 +3,7 @@
 * **Don't forget to give the bot permissions so it can send messages and read history message!**
 * **Bot don't use slash-commands. Bot Prefix '!'**
 * **Bot use SQLite DB**
+* **Bot commands:** ```!warn``` ```!warnings``` ```!clearwarnings```
 ___
 ## Git 
 ```bash
@@ -47,8 +48,4 @@ ___
 python main.py
 ```
 ___
-### Bot commands
-```!warn @user {reason}```
-```!warnings @user```
-```!clearwarnings @user```
-___
+
