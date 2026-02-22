@@ -40,10 +40,5 @@ pip install python-dotenv
 pip install sqlite3
 ```
 ___
-## Create a .env file
-```bash
-TOKEN=your_token_here
-```
-___
 
 
