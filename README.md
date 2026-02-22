@@ -12,7 +12,6 @@ cd repository-name
 ```
 ___
 ## Linux/MacOS
-* (Create a new folder for venv (any OS))
 ```bash
 python3 -m venv venv
 ```
