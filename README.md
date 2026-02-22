@@ -1,6 +1,7 @@
 # Simple Setup Guide
 * **Discord Bot Token from** [Discord Developer Portal](https://discord.com/developers/docs/intro)
-* **Don't forget to give the bot permissions so it can send messages! Bot don't use slash-commands. Prefix '!'**
+* **Don't forget to give the bot permissions so it can send messages and read history message!**
+* **Bot don't use slash-commands. Bot Prefix '!'**
 * **Bot use SQLite DB**
 ___
 ## Git 
