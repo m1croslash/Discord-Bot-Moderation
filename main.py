@@ -23,7 +23,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 # Initialize the database
 database.initialize()
 
-ROLE_ID = 1234 # Here your roles ID
+ROLE_ID = 1234 # Here is your roles ID
 
 @bot.event
 async def on_ready():
