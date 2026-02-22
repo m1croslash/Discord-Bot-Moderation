@@ -1,5 +1,6 @@
 # Simple Setup Guide
-* Discord Bot Token from [Discord Developer Portal](https://discord.com/developers/docs/intro)
+* **Discord Bot Token from** [Discord Developer Portal](https://discord.com/developers/docs/intro)
+* **Don't forget to give the bot permissions so it can send messages! Bot don't use slash-commands. Preefix '!'**
 ___
 ## Git 
 ```bash
@@ -10,7 +11,7 @@ cd repository-name
 ```
 ___
 ## Linux/MacOS
-* (Create a new folder)
+* (Create a new folder for venv (any OS))
 ```bash
 python3 -m venv venv
 ```
@@ -44,4 +45,5 @@ ___
 TOKEN=your_token_here
 ```
 ___
-**Don't forget to give the bot permissions so it can send messages! Bot don't use slash-commands. Preefix '!'
+
+
