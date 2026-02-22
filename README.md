@@ -3,7 +3,7 @@
 * **Don't forget to give the bot permissions so it can send messages and read history message!**
 * **Bot don't use slash-commands. Bot Prefix '!'**
 * **Bot use SQLite DB**
-* **Bot commands:** ```!warn``` ```!warnings``` ```!clearwarnings```
+* **Bot commands:** ```!warn``` ```!warnings``` ```!clearwarnings``` **(Example: !warn @user {reason})**
 ___
 ## Git 
 ```bash
