@@ -41,5 +41,9 @@ pip install python-dotenv
 pip install sqlite3
 ```
 ___
-
-
+## Run script
+* **You need run ```main.py``` script**
+```bash
+python main.py
+```
+___
