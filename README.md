@@ -48,7 +48,7 @@ python main.py
 ```
 ___
 ### Bot commands
-* !warn @user {reason}
-* !warnings @user
-* !clearwarnings @user
+```!warn @user {reason}```
+```!warnings @user```
+```!clearwarnings @user```
 ___
