@@ -32,7 +32,7 @@ async def on_ready():
 @commands.has_role(ROLE_ID)
 @bot.command()
 async def test(ctx):
-    await ctx.send("Bot is work!")
+    await ctx.send("Bot is working.")
 
 # Warn command (stores a warning in the database)
 @commands.has_role(ROLE_ID)
