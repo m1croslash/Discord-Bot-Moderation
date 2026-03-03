@@ -2,12 +2,10 @@ import discord
 import os
 from discord.ext import commands
 from dotenv import load_dotenv
-import database  # Import the database module
+import database
 
-# Load environment variables
 load_dotenv()
 
-# Get the TOKEN
 TOKEN = os.getenv('TOKEN') 
 
 intents = discord.Intents.default()
@@ -17,10 +15,8 @@ intents.messages = True
 intents.reactions = True 
 intents.message_content = True
 
-# Initialize the bot
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-# Initialize the database
 database.initialize()
 
 ROLE_ID = 1234 # Here is your roles ID
