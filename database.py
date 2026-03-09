@@ -3,7 +3,6 @@ import sqlite3
 con = sqlite3.connect('bot_database.db')
 cursor = con.cursor()
 
-# Function to initialize the database (create tables if they don't exist)
 def initialize(): 
     try:
         cursor.execute('''
@@ -23,16 +22,13 @@ def add_warning(user_id, guild_id, reason):
     cursor.execute('INSERT INTO warnings (user_id, guild_id, reason) VALUES (?, ?, ?)', (user_id, guild_id, reason))
     con.commit()
 
-# Function to get all warnings for a specific user
 def get_warnings(user_id, guild_id):
     cursor.execute('SELECT reason FROM warnings WHERE user_id = ? AND guild_id = ?', (user_id, guild_id))
     return cursor.fetchall()
 
-# Function to clear all warnings for a specific user
 def clear_warnings(user_id, guild_id):
     cursor.execute('DELETE FROM warnings WHERE user_id = ? AND guild_id = ?', (user_id, guild_id))
     con.commit()
 
-# Function to close the database connection
 def close_connection():
     con.close()
