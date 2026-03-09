@@ -60,10 +60,8 @@ async def clearwarnings(ctx, member: discord.Member):
     database.clear_warnings(member.id, ctx.guild.id)
     await ctx.send(f"All warnings for {member.mention} have been cleared!")
 
-# Clean up SQLite when the bot closes
 @bot.event
 async def on_disconnect():
     database.close_connection()
 
-# Run the bot
 bot.run(TOKEN)
