@@ -61,7 +61,7 @@ TOKEN=your_bot_token
 
 ### 5. Run the bot
 
-**To start the bot, run the following command:**
+To start the bot, run the following command:
 ```bash
 python main.py
 ```
